@@ -1,3 +1,5 @@
+// Source: 2016 qualification 01: https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201c8a
+
 const fs = require('fs')
 
 let content = fs.readFileSync(0, 'utf8');
