@@ -16,11 +16,41 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "acronym",
+            "name": "cracking-01-acronym",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/other/acronym-finder.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "2016-qual-02-pancakes",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": [
+                "<",
+                "${workspaceFolder}/2016/qual/pancakes.in"
+              ],
+            "program": "${workspaceFolder}/2016/qual/02-pancakes.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "2017-qual-02-tidy-numbers",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": [
+                "<",
+                "${workspaceFolder}/2017/qual/tidy.in"
+              ],
+            "program": "${workspaceFolder}/2017/qual/02-tidy.js"
         }
     ]
 }
