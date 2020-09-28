@@ -1,5 +1,7 @@
 // Source: Cracking the coding interview page 70: find acronyms in O(b) time!
 
+// Find all the acronyms of `s`, given in string `b`.
+
 let s = 'abbc'
 let b = 'cbabadcbbabbcbabaabccbabc'
 

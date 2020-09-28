@@ -1,5 +1,17 @@
 // Source: interviewing.io youtube: https://www.youtube.com/watch?v=PFoKEpuSmaQ
 
+/*
+
+Given a 2D array where True represents water and False represents land
+generate a pap with highest possible peak.
+
+Rules are: the height of any water cell is 0, the height of any land
+cell can not differ for more than one from any of the neighboring
+(sharing one edge) cells.
+
+*/
+
+
 let width = 12, height = 8
 let map = [
     'TTTTFFTTTTTT',

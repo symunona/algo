@@ -40,6 +40,50 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "2016-round1-01-last-word",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": [
+                "<",
+                "${workspaceFolder}/2016/round1/01-last-word.in"
+              ],
+            "program": "${workspaceFolder}/2016/round1/01-last-word.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "2016-round1-02-rank-and-file",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": [
+                "<",
+                "${workspaceFolder}/2016/round1/02-rank-and-file.in"
+              ],
+            "program": "${workspaceFolder}/2016/round1/02-rank-and-file.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "2017-qual-01-pancakes-2",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": [
+                "<",
+                "${workspaceFolder}/2017/qual/pancakes-2.in"
+              ],
+            "program": "${workspaceFolder}/2017/qual/01-pancakes-2.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "2017-qual-02-tidy-numbers",
             "stopOnEntry": false,
             "console": "integratedTerminal",
@@ -51,6 +95,31 @@
                 "${workspaceFolder}/2017/qual/tidy.in"
               ],
             "program": "${workspaceFolder}/2017/qual/02-tidy.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "cci-71-ransome",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+
+            "program": "${workspaceFolder}/other/cci-71-ransome.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "test-interview-01-piri.js",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/other/",
+
+            "program": "${workspaceFolder}/other/test-interview-01-piri.js"
         }
     ]
 }
