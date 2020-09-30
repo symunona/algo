@@ -17,5 +17,32 @@ for (let i = 1; i <= cases; i++) {
 }
 
 function solve(kidCount, friendConnections){
-    
+    // Put all the mutual pairs together,
+    // then try to put the one way connections in of these people,
+    // than until we run out, then make a circle.
+    let graph = {}
+    let groups = []
+    // find pairs
+    for(let i = 0; i < kidCount; i++){
+        if (friendConnections[friendConnections[i]] == i){
+            groups.push([i, friendConnections[i]])
+        }
+    }
+    // Build Reference Friend Graph
+    for(let i = 0; i < kidCount; i++){
+        // Who considers i as BFF
+        graph[i] = friendConnections.filter((f)=>f==i).map((f)=>{
+            return {
+                befrendeg
+            }
+        })
+    }
+
+    // Start building graphs: the longest the better
+    // Go over the pairs, and find the longest chains.
+
+}
+
+function getAllTheFriendsOfPerson(){
+
 }
