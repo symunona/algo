@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/mapper.js"
+            "program": "${workspaceFolder}/other/i-water-mapper.js"
         },
         {
             "type": "node",
@@ -95,6 +95,20 @@
                 "${workspaceFolder}/2017/qual/tidy.in"
               ],
             "program": "${workspaceFolder}/2017/qual/02-tidy.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "2017-round1a-01-cake",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": [
+                "<",
+                "${workspaceFolder}/2017/round1a/01-cake.in"
+              ],
+            "program": "${workspaceFolder}/2017/round1a/01-cake.js"
         },
         {
             "type": "node",
@@ -120,6 +134,109 @@
             "cwd": "${workspaceFolder}/other/",
 
             "program": "${workspaceFolder}/other/test-interview-01-piri.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "hacker_sort_01",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                "OUTPUT_PATH": "0"
+            },
+            "args": [ 
+                "<",
+                "${workspaceFolder}/hackerrank/sort-01.in"
+              ],
+
+
+            "program": "${workspaceFolder}/hackerrank/sort-01.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "hacker_sort_03",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                "OUTPUT_PATH": "${workspaceFolder}/hackerrank/sort-03-merge.out"
+            },
+            "args": [
+                "<",
+                "${workspaceFolder}/hackerrank/sort-03-merge.in"
+              ],
+
+
+            "program": "${workspaceFolder}/hackerrank/sort-03-merge.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "hacker_dict_count_triplets",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                // "OUTPUT_PATH": "${workspaceFolder}/hackerrank/count-triplets.out"
+            },
+            "args": [
+                "<",
+                "${workspaceFolder}/hackerrank/dict-count-triplets2.in"
+              ],
+
+            "program": "${workspaceFolder}/hackerrank/dict-count-triplets.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "hacker_dict_frequency_queries",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                "OUTPUT_PATH": "${workspaceFolder}/hackerrank/dict_frequency_queries.out"
+            },
+            "args": [
+                "<",
+                "${workspaceFolder}/hackerrank/dict-frequency-queries.in"
+              ],
+
+            "program": "${workspaceFolder}/hackerrank/dict-frequency-queries.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "parentesis",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+
+            "program": "${workspaceFolder}/other/2020-10-23-just-an-intro.js"
+        }, {
+            "type": "node",
+            "request": "launch",
+            "name": "massouse",
+            "stopOnEntry": false,
+            // "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+
+            "program": "${workspaceFolder}/other/2020-11-07-massouse.js"
         }
     ]
 }
