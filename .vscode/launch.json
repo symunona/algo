@@ -138,6 +138,46 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "hacker_greed_min_max",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                "OUTPUT_PATH": "0"
+            },
+            "args": [
+                "<",
+                "${workspaceFolder}/hackerrank/greed-min-max.in"
+              ],
+
+
+            "program": "${workspaceFolder}/hackerrank/greed-min-max.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "hacker_hash_cream",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                "OUTPUT_PATH": "0"
+            },
+            "args": [
+                "<",
+                "${workspaceFolder}/hackerrank/hash-cream.in"
+              ],
+
+
+            "program": "${workspaceFolder}/hackerrank/hash-cream.js"
+        },{
+            "type": "node",
+            "request": "launch",
             "name": "hacker_sort_01",
             "stopOnEntry": false,
             "console": "integratedTerminal",
@@ -148,13 +188,53 @@
             "env": {
                 "OUTPUT_PATH": "0"
             },
-            "args": [ 
+            "args": [
                 "<",
                 "${workspaceFolder}/hackerrank/sort-01.in"
               ],
 
 
             "program": "${workspaceFolder}/hackerrank/sort-01.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "hacker_dyn_candy",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                "OUTPUT_PATH": "0"
+            },
+            "args": [
+                "<",
+                "${workspaceFolder}/hackerrank/dyn-candy.in"
+              ],
+
+
+            "program": "${workspaceFolder}/hackerrank/dyn-candy.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "hacker_magic-square-forming",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                "OUTPUT_PATH": "0"
+            },
+            "args": [
+                "<",
+                "${workspaceFolder}/hackerrank/magic-square-forming.in"
+              ],
+
+
+            "program": "${workspaceFolder}/hackerrank/magic-square-forming.js"
         },
         {
             "type": "node",
@@ -214,6 +294,25 @@
               ],
 
             "program": "${workspaceFolder}/hackerrank/dict-frequency-queries.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "hacker_dp_max_array_sum",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/hackerrank/",
+            "env": {
+                "OUTPUT_PATH": "dev/null" // "${workspaceFolder}/hackerrank/dict_frequency_queries.out"
+            },
+            "args": [
+                "<",
+                "${workspaceFolder}/hackerrank/dyn-max-array-sum.in"
+              ],
+
+            "program": "${workspaceFolder}/hackerrank/dyn-max-array-sum.js"
         },
         {
             "type": "node",
@@ -237,6 +336,16 @@
             ],
 
             "program": "${workspaceFolder}/other/2020-11-07-massouse.js"
+        },
+        {
+            "name": "Advent",
+            "program": "${workspaceFolder}/advent-2020/01-b.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "cwd":"${workspaceFolder}/advent-2020/"
         }
     ]
 }
