@@ -338,8 +338,18 @@
             "program": "${workspaceFolder}/other/2020-11-07-massouse.js"
         },
         {
-            "name": "Advent",
+            "name": "Advent 01",
             "program": "${workspaceFolder}/advent-2020/01-b.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "cwd":"${workspaceFolder}/advent-2020/"
+        },
+        {
+            "name": "Advent 08",
+            "program": "${workspaceFolder}/advent-2020/08.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
