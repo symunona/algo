@@ -348,8 +348,8 @@
             "cwd":"${workspaceFolder}/advent-2020/"
         },
         {
-            "name": "Advent 08",
-            "program": "${workspaceFolder}/advent-2020/08.js",
+            "name": "Advent 12b",
+            "program": "${workspaceFolder}/advent-2020/12b.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
