@@ -4,6 +4,33 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+    {
+        "name": "(gdb) Launch 15",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/advent-2020/15",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            }
+        ]
+    },
+        {"name":"Python: Current File",
+            "type":"python",
+            "request":"launch",
+            "program":"${file}",
+            "cwd": "${fileDirname}",
+            "console":"integratedTerminal"
+        },
         {
             "type": "node",
             "request": "launch",
@@ -348,14 +375,24 @@
             "cwd":"${workspaceFolder}/advent-2020/"
         },
         {
-            "name": "Advent 12b",
-            "program": "${workspaceFolder}/advent-2020/12b.js",
+            "name": "Advent 18",
+            "program": "${workspaceFolder}/advent-2020/18b.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "type": "pwa-node",
             "cwd":"${workspaceFolder}/advent-2020/"
+        },
+        {
+            "name": "Hunt 1",
+            "program": "${workspaceFolder}/hunt/01-pass.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "cwd":"${workspaceFolder}/hunt/"
         }
     ]
 }
