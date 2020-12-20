@@ -375,8 +375,8 @@
             "cwd":"${workspaceFolder}/advent-2020/"
         },
         {
-            "name": "Advent 18",
-            "program": "${workspaceFolder}/advent-2020/18b.js",
+            "name": "Advent 20c",
+            "program": "${workspaceFolder}/advent-2020/20c.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
@@ -385,8 +385,8 @@
             "cwd":"${workspaceFolder}/advent-2020/"
         },
         {
-            "name": "Hunt 1",
-            "program": "${workspaceFolder}/hunt/01-pass.js",
+            "name": "Hunt 2",
+            "program": "${workspaceFolder}/hunt/02.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"

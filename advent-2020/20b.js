@@ -3,12 +3,6 @@ const SIZE = 10, N = 0, S = 1, E = 2, W = 3
 
 let tiles = {}
 
-let patternToLookFor =
-`                  #
-#    ##    ##    ###
- #  #  #  #  #  #`
-
-
 fs.readFileSync('./20.in', 'utf8').split('\n\n').map((tile)=>{
     tile = tile.split('\n')
     let id = parseInt(tile[0].split(' ')[1])
@@ -81,7 +75,7 @@ function transformWholeTile(tile, t){
         case 5:
         case 6:
         case 7:
-            return rotateWholeTile(flipWholeTile(tile, t-4))
+            return rotateWholeTile(flipWholeTile(tile), t-4)
     }
 }
 
