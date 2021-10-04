@@ -6,10 +6,10 @@
     "configurations": [
 
     {
-        "name": "(gdb) Launch 15",
+        "name": "(gdb) Launch 23",
         "type": "cppdbg",
         "request": "launch",
-        "program": "${workspaceFolder}/advent-2020/15",
+        "program": "${workspaceFolder}/advent-2020/23",
         "args": [],
         "stopAtEntry": false,
         "cwd": "${workspaceFolder}",
@@ -375,8 +375,8 @@
             "cwd":"${workspaceFolder}/advent-2020/"
         },
         {
-            "name": "Advent 20c",
-            "program": "${workspaceFolder}/advent-2020/20c.js",
+            "name": "Advent 25",
+            "program": "${workspaceFolder}/advent-2020/25.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
